@@ -1,0 +1,55 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border: 3px solid;
+    font-size: 25px;
+}
+#box1{
+    background-color: blue;
+    top: 100px;
+    left: 50px;
+    z-index: 1;
+}
+#box2{
+    background-color: greenyellow;
+    top: 150px;
+    left: 100px;
+    z-index:1 ;
+}
+#box3{
+    background-color: red;
+    top: 200px;
+    left: 150px;
+    z-index: -2;
+} 
+
+#box4{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 150%;
+    left: 20%;
+    background-color: blueviolet;
+    color: red;
+    box-shadow: 0 0 15px orange;
+    text-align: center;
+    animation-name: sample;
+    animation-duration: 3s;
+    /* animation-timing-function: ease-in-out; */
+    animation-direction: alternate;
+    /* animation-iteration-count: 3; */
+    animation-iteration-count: infinite;
+   
+
+}
+@keyframes sample{
+    /* from {border-radius: 30%;}
+    to   {border-radius: 100%; } */
+    
+    30%{border-radius: 30%;}
+    100%{border-radius: 100%;}
+}

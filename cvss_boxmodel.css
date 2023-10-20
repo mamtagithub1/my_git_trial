@@ -1,0 +1,76 @@
+body{
+    box-sizing: border-box;
+}
+.one{
+    border-width: 2px;
+    border-color: rgb(85, 0, 255);
+    border-style: solid;
+    margin: 10px 25px;
+    /* box-shadow: 24px 15px red; */
+    /* box-shadow: 4px 10px 5px red; */
+    /* box-shadow: 4px 10px 5px 4px red; */
+    box-shadow: -4px -10px 5px red;
+
+}
+.conatiner{ 
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin-right: 10px;
+    margin-top: 35px;
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 18px;
+}
+.conatiner img{
+    min-width: 250px;
+    min-height: 150px;
+}
+.two{
+  border: 2px solid rgb(136, 51, 204); 
+  /* outline-width: 8px;
+  outline-style: solid;
+  outline-color:  rgb(210, 210, 15);
+  outline-offset: 5px; */
+  /* outline: width  */
+  /* outline: 5px solid  red ;
+  outline-offset: 8px; */
+  padding: 20px;
+  /* border-radius: 10px 250px 15px ; */
+  /* border-radius:  */
+  /* border-start-start-radius: 18px; */
+  /* border-end-end-radius: 30px; */
+  border-top-left-radius: 15px;
+  
+
+}
+.para{
+    border: 8px solid;
+    margin: 12px;
+    box-sizing: border-box;
+    /* box-sizing: content-box; */
+    width: 550px;
+    height: 250px;
+    padding: 150px;
+   
+}
+.para1{
+    border: 9px solid red;
+    margin: 8px;
+    /* box-sizing: border-box; */
+    white-space: nowrap;
+    overflow: hidden;
+    width: 220px;
+    /* height: 350px;
+    padding: 50px; */
+    /* white-space: nowrap;
+    overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: auto; */
+    /* overflow: visible; */
+    /* overflow-x: hidden; */
+    /* text-overflow: clip; */
+    text-overflow: ellipsis;
+    /* text-overflow: '[...]'; */
+}

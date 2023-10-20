@@ -1,0 +1,33 @@
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+#house p{
+     
+        display: none;
+        background-color: yellow;
+        padding: 20px;
+      
+}
+#house:hover p {
+    display: block;
+  }
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  input:active{
+    background-color: blue;
+  }
+  

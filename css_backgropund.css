@@ -1,0 +1,55 @@
+.color h1{
+    color: #FFCCFF;
+}
+.color p{
+    color: rgb(224, 216, 216);
+    background-color: rgba(244, 2, 2,0.4);
+    background-image: url('https://media.istockphoto.com/id/1453871242/photo/a-full-body-studio-portrait-of-an-orange-cat.webp?b=1&s=612x612&w=0&k=20&c=dA5-vGbCNSY8D23QM6XKa1lHisUZIvTlCvL4C-3o2Io=');
+    width: 500px;
+    height: 400px;
+    background-size: 34% 34%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+body{
+
+    /* background-image: url('./flowers.jpg'),url('./pexels-chris-f-6664375.jpg');
+    background-repeat:no-repeat, no-repeat;
+    background-size: 23% 25% , 34% 34%; */
+    /* background-repeat:repeat-y; */
+    /* background-repeat:space; */
+    /* background-repeat:round; */
+    /* background-position: right center; */
+    /* background-position: center center, left center; */
+    /* background: url('./flowers.jpg')  no-repeat right ; */
+    /* background-image: url('./flowers.jpg') ; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-attachment: scroll; */
+
+}
+
+.gradients{
+    width: 800px;
+    height:300px ;
+    padding: 12px;
+    border: 2px solid;
+    /* background: linear-gradient(to right ,red,yellow,green); */
+    /* background: linear-gradient(to right top,red,yellow,green); */
+    /* background: linear-gradient(240deg,red,yellow,green,orange,blue); */
+    /* background: linear-gradient(rgba(38, 0, 255,0.6),rgba(255,0,0,1)); */
+    /* background: repeating-linear-gradient(red ,blue 23%,green 45% ); */
+    background: repeating-linear-gradient(to right,red ,blue 10%,green 25% );
+}   
+#radial{
+    width: 800px;
+    height:200px ;
+    margin: 30px;
+    /* background: radial-gradient(red,orange,rgb(255, 0, 217)); */
+    /* background: radial-gradient(red 55%,orange 15%,rgb(255, 0, 217) 65%); */
+    /* background: radial-gradient(closest-side at 10% 80% ,red,orange ,rgb(255, 0, 217) ); */
+    /* background: radial-gradient(farthest-side at 40% 80% ,red,orange ,rgb(255, 0, 217) ); */
+    /* background: radial-gradient(closest-corner at 10% 40% ,red,orange ,rgb(255, 0, 217) ); */
+    background:repeating-radial-gradient(red,green 12%,blue 20%);
+
+}

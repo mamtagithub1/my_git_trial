@@ -1,0 +1,40 @@
+.display{
+    border: 2px solid;
+    display: flex;
+    flex-direction: column-reverse;
+   
+}
+.one{
+    border: 2px solid;
+    background-color: red;
+    /* width: 14px; */
+
+}
+.two{
+    border: 2px solid;
+    background-color: green;
+}
+.three{
+    border: 2px solid;
+    background-color: blue;
+}
+.four{
+    border: 2px solid;
+    background-color: yellow;
+}
+
+.trans{
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    /* transition-property: width,height;
+    transition-duration: 2s,3s; */
+    /* transition:width,height,background-color 2s,3s,2s ; */
+    /* transition:all 2s steps(6) 2s; */
+}
+/* .trans:hover{ */
+    /* width:400px;
+    height: 200px; */
+    /* border-radius: 100%;
+    background-color: aqua;
+} */

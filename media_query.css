@@ -1,0 +1,47 @@
+
+body{
+    background-color: bisque;
+}
+footer{
+    color: white;
+    background-color: black;
+    margin-top: 280px;
+    padding: 5px;
+    font-size: 15px;
+}
+section{
+    border: 3px solid blue;
+    margin: 5px;
+    background-color: cadetblue;
+}
+header{
+    background-color: aqua;
+    float: right;
+    
+}
+header a{
+    text-decoration: none;
+}
+@media screen and (max-width:900px) {
+    body{
+        background-color: red;
+    }  
+}
+@media screen and (max-width:700px){
+    footer{
+        display: none;
+    }
+}
+@media screen and (min-width:200px){
+    img{
+        display: none;
+    }
+    section p{
+        width: 50px ;
+    }
+}
+@media screen and (min-width:100px){
+    section p{
+        overflow: hidden;
+    }
+}

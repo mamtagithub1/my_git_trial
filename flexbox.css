@@ -1,0 +1,67 @@
+    *{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    border: 3px solid;
+    display: flex;
+    justify-content: space-evenly; 
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    flex-wrap:wrap;
+    /* short hand property for direction and wrap */
+    /* flex-flow: row wrap; */
+    /* flex-flow: row nowrap;*/
+}
+.child
+{
+    border: 2px solid;
+    width :100px ;
+    height:100px ;
+
+}
+#box1{
+    background-color: blue;
+    /* 4 times grow than other flex */
+    /* flex-grow: 2; */
+}
+#box2{
+    background-color: red;
+    /* lex item shrink,regardless of other flex
+         items*/
+    flex-grow: 4; 
+    flex-shrink: 0;
+    /* fix space,1..so on will lessen space */
+    /* adjust web page and see */
+}
+#box3{
+    background-color: orange;
+    /* order: 1; */
+}
+#box4{
+    background-color: orchid;
+}
+#box5{
+    background-color: yellow;
+}
+#box6{
+    background-color: yellow;
+}
+#box7{
+    background-color: yellow;
+}
+/* responsiveness */
+@media (max-width:400px){
+    .parent{
+        flex-direction:column;
+        
+    }
+    
+}
+@media (max-width:100px){
+    #box5{
+        display: none;
+    }
+}
+/* flex-basis
+    flex short hand property */

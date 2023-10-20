@@ -1,0 +1,70 @@
+.filter{
+    background-color: blueviolet;
+    border: 2px solid ;
+    /* filter: brightness(250%); */
+    
+}
+.filter img{
+    margin: 12px;
+    /* filter: brightness(150%); */
+    /* filter: blur(10%); */
+    /* filter: contrast(100%); */
+    /* filter: grayscale(134%); */
+    /* filter: drop-shadow(5px 4px 5px red); */
+    /* filter: hue-rotate(300deg); */
+    /* filter: invert(260%); */
+    /* filter: none; */
+    
+}
+.visible{
+    background-color: cadetblue;
+    width: 500px;
+    height: 400px;
+}
+.visible ul{
+    /* visibility: hidden; */
+    /* visibility: visible; */
+    /* display: none; */
+}
+ table #meet
+ {
+    visibility: collapse;
+}
+.display{
+    border: 2px solid black;
+    height: 200px;
+    width: 350px;
+    margin-top: 5px;
+    background-color: rgb(120, 211, 46);
+   /* display:flex;*/
+   /* flex-direction: column; */
+}
+/* .flex1 span{
+    display: block;
+    border: 2px solid ;
+} */
+.one{
+
+    border: 2px solid black;
+}
+.two p{
+    border: 2px solid red;
+    display: inline;
+
+}
+.three{
+    border:2px solid yellow
+}
+.float img,a,p{
+    /* float: left; */
+    /* margin-left: 120px; */
+    float: right;
+    /* float: top; */
+}
+.float p{
+    width: 50%;
+    margin-top: 50px;
+    border: 2px solid;
+    /* float: left; */
+    /* float: right; */
+}
